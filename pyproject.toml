@@ -8,10 +8,16 @@ dependencies = [
     "pandas>=3.0.1",
     "pyjokes>=0.8.3",
     "rich>=14.2.0",
+    "flask==0.5"
 ]
 
 [dependency-groups]
 dev = [
     "pytest>=8.3.4",
     "pytest-html>=4.1.1",
+
 ]
+
+[tool.uv-secure.ignore_packages]
+# Ignores all vulnerabilities for Flask version 0.5
+Flask = ["==0.5"]
