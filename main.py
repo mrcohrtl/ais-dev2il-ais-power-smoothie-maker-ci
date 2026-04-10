@@ -5,7 +5,7 @@ import pandas as pd
 from rich.console import Console
 from rich.progress import Progress, SpinnerColumn, TextColumn
 
-feature = "Hello"
+feature = "3494j4hh432h4"
 
 def get_ingredients(recipe_file: Path) -> list[str]:
     if not recipe_file.exists():
